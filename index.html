@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Che Cory restaurant menu featuring appetizers, entrées, and desserts." />
+  <title>Che Cory | Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav container">
+      <a class="brand" href="#home">Che Cory</a>
+      <div class="nav-links">
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+        <a href="#qr">QR Code</a>
+      </div>
+    </nav>
+
+    <div class="hero-content container">
+      <p class="eyebrow">Fresh food. Warm atmosphere.</p>
+      <h1>Welcome to Che Cory</h1>
+      <p class="hero-text">
+        Comfort food made with bold flavor, fresh ingredients, and a little personality.
+      </p>
+      <a class="button" href="#menu">View Our Menu</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">Made to enjoy</p>
+        <h2>Our Menu</h2>
+        <p>A simple selection of guest favorites.</p>
+      </div>
+
+      <div class="menu-category">
+        <h3>Appetizers</h3>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div>
+              <h4>Cory’s Loaded Fries</h4>
+              <p>Crispy fries topped with cheddar, bacon, scallions, and house sauce.</p>
+            </div>
+            <span>$10</span>
+          </article>
+
+          <article class="menu-card">
+            <div>
+              <h4>Golden Mozzarella Bites</h4>
+              <p>Seasoned mozzarella bites served with warm marinara.</p>
+            </div>
+            <span>$9</span>
+          </article>
+
+          <article class="menu-card">
+            <div>
+              <h4>Honey BBQ Wings</h4>
+              <p>Juicy wings tossed in Che Cory’s sweet and smoky honey BBQ sauce.</p>
+            </div>
+            <span>$13</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Entrées</h3>
+        <div class="menu-grid">
+          <article class="menu-card featured">
+            <div>
+              <div class="badge">Chef Favorite</div>
+              <h4>Che Cory Burger</h4>
+              <p>Two beef patties, smoked cheddar, caramelized onions, pickles, and signature sauce.</p>
+            </div>
+            <span>$17</span>
+          </article>
+
+          <article class="menu-card">
+            <div>
+              <h4>Garlic Parmesan Chicken</h4>
+              <p>Grilled chicken over creamy garlic parmesan pasta with toasted bread.</p>
+            </div>
+            <span>$19</span>
+          </article>
+
+          <article class="menu-card">
+            <div>
+              <h4>Blackened Salmon</h4>
+              <p>Blackened salmon with seasoned rice, vegetables, and lemon butter.</p>
+            </div>
+            <span>$23</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Desserts</h3>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div>
+              <h4>Chocolate Lava Cake</h4>
+              <p>Warm chocolate cake with a molten center and vanilla ice cream.</p>
+            </div>
+            <span>$9</span>
+          </article>
+
+          <article class="menu-card">
+            <div>
+              <h4>Strawberry Cheesecake</h4>
+              <p>Classic cheesecake topped with strawberry sauce and fresh berries.</p>
+            </div>
+            <span>$8</span>
+          </article>
+
+          <article class="menu-card">
+            <div>
+              <h4>Cinnamon Churro Bites</h4>
+              <p>Warm cinnamon-sugar bites with chocolate and caramel dipping sauces.</p>
+            </div>
+            <span>$8</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit">
+      <div class="container visit-grid">
+        <div>
+          <p class="eyebrow">Come dine with us</p>
+          <h2>Visit Che Cory</h2>
+          <p>123 Main Street<br>Your City, ST 00000</p>
+          <p><strong>Hours</strong><br>
+            Monday–Thursday: 11 AM–9 PM<br>
+            Friday–Saturday: 11 AM–10 PM<br>
+            Sunday: 12 PM–8 PM
+          </p>
+          <p><strong>Phone:</strong> (555) 123-2679</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Good food starts here.</h3>
+          <p>
+            Bring your family, meet your friends, or stop by for your new favorite meal.
+          </p>
+          <a class="button button-dark" href="tel:+15551232679">Call Che Cory</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container qr-section" id="qr">
+      <div class="section-heading">
+        <p class="eyebrow">Share the menu</p>
+        <h2>Scan to Visit Che Cory</h2>
+        <p>
+          Once this website is uploaded online, this QR code automatically links to its live address.
+        </p>
+      </div>
+
+      <div class="qr-card">
+        <div id="qrcode" aria-label="QR code linking to the Che Cory website"></div>
+        <p id="qr-url">Loading website address…</p>
+        <button class="button" id="download-qr" type="button">Download QR Code</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Che Cory. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
